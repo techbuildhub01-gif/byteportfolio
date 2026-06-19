@@ -5,7 +5,7 @@
 export const profile = {
   name: "Sheikh Farjad Ahmed",
   brand: "farjad", // shown as <brand/> in the navbar & footer logo
-  photo: "/profile.jpg", // save your photo at public/profile.jpg (or change ext). Empty/missing → shows your initials instead.
+  photo: "/profile.jpeg", // save your photo at public/profile.jpg (or change ext). Empty/missing → shows your initials instead.
   // hero headline — one line per array item (the LAST line gets the gradient)
   headline: ["I build web apps", "and software —", "from idea to deployment."],
   role: "Web Developer",
