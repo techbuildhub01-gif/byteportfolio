@@ -14,7 +14,7 @@ export const profile = {
   location: "Karachi, PK",
   status: "Available for work",
   email: "techbuildhub01@gmail.com",
-  resumeUrl: "#", // put resume.pdf in public/ then set this to "/resume.pdf" (or paste a Drive/online link). The Résumé button appears once this isn't "#".
+  resumeUrl: "Resume.pdf", // put resume.pdf in public/ then set this to "/resume.pdf" (or paste a Drive/online link). The Résumé button appears once this isn't "#".
   socials: {
     github: "https://github.com/techbuildhub01-gif",
     linkedin: "#", // paste your LinkedIn URL (icon stays hidden until you do)
