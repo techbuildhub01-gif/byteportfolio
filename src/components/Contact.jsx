@@ -105,7 +105,7 @@ export default function Contact() {
                 type="text"
                 value={form.name}
                 onChange={update("name")}
-                placeholder="Jane Doe"
+                placeholder=""
                 className={fieldClass}
               />
             </div>
@@ -118,7 +118,7 @@ export default function Contact() {
                 type="email"
                 value={form.email}
                 onChange={update("email")}
-                placeholder="jane@company.com"
+                placeholder=""
                 className={fieldClass}
               />
             </div>
