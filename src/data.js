@@ -5,7 +5,7 @@
 export const profile = {
   name: "Sheikh Farjad Ahmed",
   brand: "farjad", // shown as <brand/> in the navbar & footer logo
-  photo: "/profile.jpeg", // save your photo at public/profile.jpg (or change ext). Empty/missing → shows your initials instead.
+  photo: "/profile.jpg", // save your photo at public/profile.jpg (or change ext). Empty/missing → shows your initials instead.
   // hero headline — one line per array item (the LAST line gets the gradient)
   headline: ["I build web apps", "and software —", "from idea to deployment."],
   role: "Web Developer",
@@ -14,13 +14,20 @@ export const profile = {
   location: "Karachi, PK",
   status: "Available for work",
   email: "techbuildhub01@gmail.com",
-  resumeUrl: "/Resume.pdf", // link your résumé PDF here to make the Résumé button appear
+  resumeUrl: "#", // put resume.pdf in public/ then set this to "/resume.pdf" (or paste a Drive/online link). The Résumé button appears once this isn't "#".
   socials: {
     github: "https://github.com/techbuildhub01-gif",
     linkedin: "#", // paste your LinkedIn URL (icon stays hidden until you do)
     twitter: "#", // paste your X / Twitter URL (icon stays hidden until you do)
   },
 };
+
+// ── Contact form ──────────────────────────────────────────────
+// Get a FREE access key from https://web3forms.com — just type your email,
+// no signup needed. Paste it below and the contact form sends messages
+// straight to that inbox. Leave it as-is and the form falls back to opening
+// the visitor's mail app instead.
+export const web3formsKey = "1d65bfda-929a-406a-8f30-65df315c060e";
 
 export const stats = [
   // placeholder metrics — change these to your real numbers
