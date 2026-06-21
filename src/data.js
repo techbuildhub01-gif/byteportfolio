@@ -115,7 +115,7 @@ export const projects = [
       "A desktop Library Management System built in C# with Windows Forms and a MySQL database. Features secure login, a dashboard, and full management of books, authors, genres, members, and book circulation (issue and return).",
     tags: ["C#", "Windows Forms", "MySQL"],
     year: "2025",
-    image: "/library.png", // add a screenshot of the app and save it as public/library.png
+    image: "/library.jpeg", // add a screenshot of the app and save it as public/library.jpeg
     live: "#", // desktop app — no live demo
     code: "https://github.com/techbuildhub01-gif/Library-Management-System", // <-- apne account ka ASLI repo URL daalna (jo naam push karte waqt diya tha)
     featured: true,
