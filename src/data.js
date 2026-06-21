@@ -132,6 +132,18 @@ export const projects = [
     code: "https://github.com/techbuildhub01-gif/Database-Project",
     featured: true,
   },
+  {
+    name: "ResuMatch — AI Resume Analyzer",
+    role: "Full-Stack Developer",
+    blurb:
+      "An AI-powered web app that scores your resume against any job description and returns matched/missing keywords plus tailored improvement tips. Upload a PDF or paste text. Built with Next.js and the Google Gemini API behind a secure server route.",
+    tags: ["Next.js", "AI", "Gemini API"],
+    year: "2026",
+    image: "/resumatch.png", // add a screenshot of the app and save it as public/resumatch.png
+    live: "https://resumematch-three.vercel.app/", // <-- yahan apna Vercel live URL daalo (jaise https://resumatch-xxxx.vercel.app/)
+    code: "https://github.com/techbuildhub01-gif/resumatch",
+    featured: true,
+  },
 ];
 
 export const nav = [
