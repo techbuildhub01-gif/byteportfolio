@@ -120,6 +120,18 @@ export const projects = [
     code: "https://github.com/techbuildhub01-gif/Library-Management-System", // <-- apne account ka ASLI repo URL daalna (jo naam push karte waqt diya tha)
     featured: true,
   },
+  {
+    name: "Restaurant Management System",
+    role: "Developer",
+    blurb:
+      "A desktop Restaurant Management System built in C# with Windows Forms and Microsoft SQL Server. Features user login with role-based access, a dashboard, and management of menus, items, categories, orders, and printable receipts.",
+    tags: ["C#", "Windows Forms", "SQL Server"],
+    year: "2025",
+    image: "/restaurant.jpg", // add a screenshot of the app and save it as public/restaurant.jpg
+    live: "#", // desktop app — no live demo
+    code: "https://github.com/techbuildhub01-gif/Database-Project",
+    featured: true,
+  },
 ];
 
 export const nav = [
