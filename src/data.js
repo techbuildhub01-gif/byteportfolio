@@ -96,6 +96,18 @@ export const projects = [
     code: "https://github.com/techbuildhub01-gif/DSA-PROJECT",
     featured: true,
   },
+  {
+    name: "DriveWith",
+    role: "Frontend Developer",
+    blurb:
+      "A ride-hailing and delivery app prototype inspired by inDrive and Bykea, where riders propose their own fare and drivers accept or counter in real time. Features rider and driver modes, live map tracking, and a driver earnings dashboard.",
+    tags: ["React", "Vite", "JavaScript"],
+    year: "2026",
+    image: "/drivewith.jpg", // take a screenshot of the running app and save it as public/drivewith.jpg
+    live: "https://drivewith.vercel.app/", // paste your Vercel live URL here once deployed
+    code: "https://github.com/techbuildhub01-gif/drivewith",
+    featured: true,
+  },
 ];
 
 export const nav = [
