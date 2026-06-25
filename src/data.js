@@ -17,7 +17,7 @@ export const profile = {
   resumeUrl: "Resume.pdf", // put resume.pdf in public/ then set this to "/resume.pdf" (or paste a Drive/online link). The Résumé button appears once this isn't "#".
   socials: {
     github: "https://github.com/techbuildhub01-gif",
-    linkedin: "#", // paste your LinkedIn URL (icon stays hidden until you do)
+    linkedin: "https://www.linkedin.com/in/sheikh-farjad-640275305/", // paste your LinkedIn URL (icon stays hidden until you do)
     twitter: "#", // paste your X / Twitter URL (icon stays hidden until you do)
   },
 };
