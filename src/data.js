@@ -81,7 +81,19 @@ export const projects = [
     year: "2026",
     image: "/grocery.jpg", // put the image file in public/grocery.jpg
     live: "https://grocery-store-app-01.vercel.app/",
-    code: "#", // paste the GitHub repo URL here to show a "Code" link
+    code: "https://github.com/techbuildhub01-gif/grocery-store", // paste the GitHub repo URL here to show a "Code" link
+    featured: true,
+  },
+  {
+    name: "CodeCosmos",
+    role: "Full-Stack Developer",
+    blurb:
+      "Turns any GitHub profile into an explorable 3D galaxy — repositories become stars, commits become asteroid belts and open PRs become comets. Built with a React + Three.js front-end and a Flask + GitHub GraphQL back-end.",
+    tags: ["React", "Three.js", "Flask", "Python"],
+    year: "2026",
+    image: "/codecosmos.jpg", // put a screenshot in public/codecosmos.jpg
+    live: "https://codecosmos-xi.vercel.app/", // replace with your real Vercel URL after deploying
+    code: "https://github.com/techbuildhub01-gif/codecosmos",
     featured: true,
   },
   {
